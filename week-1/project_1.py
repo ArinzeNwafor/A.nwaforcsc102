@@ -4,16 +4,16 @@ if pick == 1:
     P = float(input("Input Principal: "))
     R = float(input("Input the Rate: "))
     T = float(input("Input the Time: "))
-    amount = (P * R * T) / 100
-    print("Amount = ", amount)
+    A = (P * R * T) / 100
+    print("Amount = ", A)
 
 elif pick == 2:
     P = float(input("Input Principal: "))
     R = float(input("Input the Rate: "))
     T = float(input("Input the Time: "))
     n = float(input("input n: "))
-    compound = P * (1 + R / n) ** n * T
-    print("compound interest = ", compound)
+    C = P * (1 + R / n) ** n * T
+    print("Compound Interest = ", C)
 
 elif pick == 3:
     P = float(input("Input Principal: "))
